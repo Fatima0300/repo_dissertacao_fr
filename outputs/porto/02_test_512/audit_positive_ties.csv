@@ -1,0 +1,9 @@
+version,method,positive_top_ties,self_top2
+original,embeddings,0,0
+original,tfidf,0,0
+50_words,embeddings,0,0
+50_words,tfidf,0,0
+100_words,embeddings,0,0
+100_words,tfidf,0,0
+150_words,embeddings,0,0
+150_words,tfidf,0,0

@@ -1,6 +1,6 @@
 {
   "experiment": "128_segmented_main",
-  "generated_utc": "2026-10-30T01:17:02.747812+00:00",
+  "generated_utc": "2026-10-30T18:54:55.274549+00:00",
   "inputs_sha256": {
     "agueda_tabela_mae_datasets.csv": "025aef4bab24645d7150b3e65732ef21f0b6501e3dfd0f50c2d78ae75a7bb94b",
     "texto_base.csv": "ccd9b11e367b07c47212b64c5bc04cd6dca9df3c6da35bc4b6d8290a7ad4b29b",
@@ -8,17 +8,17 @@
     "ancoras_v2_100_palavras.csv": "3a8b1fae634e98577b8b65845adecfd8517d9a81b21cdc38009d7b0b3e864048",
     "ancoras_v3_150_palavras.csv": "8f2c8c3127e4f34183af5526e7f085ad7a1854fb0897736d26a301a1435066b0"
   },
-  "excel_sha256": "2c32b681d0c2fe68072f2ff3942d76c54800fda8ddb267bc3c681a89a770ac42",
-  "notebook_sources_sha256": "acf8fe9602668cbf61baaf20dd35117877a52824e4c0280e893f56540a2a9edd",
+  "excel_sha256": "09f106a36b58a521be6198bfafda522f53147cb69e775d62bd390677544ed2a5",
+  "notebook_sources_sha256": "c42cbe35fc45d4e48a2e517e1a854d9e9d4658626b0e08559e0f765471ae8055",
   "helper_sha256": "654e32086a1af022a6f285f2568006a8022c18f1ed9e717c4c4cda8785a5c460",
   "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
   "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
   "max_seq_length": 128,
   "seed": 42,
-  "python": "3.13.16",
+  "python": "3.13.7",
   "platform": "Windows-11-10.0.26300-SP0",
   "packages": {
-    "numpy": "2.3.5",
+    "numpy": "2.3.3",
     "pandas": "2.3.3",
     "scipy": "1.16.3",
     "scikit-learn": "1.7.2",
@@ -26,10 +26,10 @@
     "sentence-transformers": "5.1.2",
     "transformers": "4.57.1",
     "tokenizers": "0.22.1",
-    "spacy": "3.8.16",
+    "spacy": "3.8.14",
     "pt_core_news_sm": "3.8.0",
     "openpyxl": "3.1.5",
-    "matplotlib": "3.10.9",
+    "matplotlib": "3.10.8",
     "seaborn": "0.13.2"
   }
 }

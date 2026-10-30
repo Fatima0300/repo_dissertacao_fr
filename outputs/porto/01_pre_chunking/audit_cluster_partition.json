@@ -1,0 +1,9 @@
+{
+  "k": 5,
+  "selection_n_init": 20,
+  "final_n_init": 50,
+  "adjusted_rand_20_vs_50": 0.9500855873883036,
+  "final_silhouette_cosine": 0.26088687777519226,
+  "final_davies_bouldin": 2.2388588803310885,
+  "final_calinski_harabasz": 11.573460578918457
+}
