@@ -1,0 +1,9 @@
+# API keys: read from .env (see .env.example), never from the code
+.env
+
+# New exports of notebooks/00_data_collection.ipynb (not used by the analysis)
+outputs/data_collection/
+
+# Python and Jupyter
+__pycache__/
+.ipynb_checkpoints/

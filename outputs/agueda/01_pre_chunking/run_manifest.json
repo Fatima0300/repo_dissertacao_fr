@@ -1,0 +1,35 @@
+{
+  "experiment": "128_direct_historical",
+  "generated_utc": "2026-10-30T01:06:28.889597+00:00",
+  "inputs_sha256": {
+    "agueda_tabela_mae_datasets.csv": "025aef4bab24645d7150b3e65732ef21f0b6501e3dfd0f50c2d78ae75a7bb94b",
+    "texto_base.csv": "ccd9b11e367b07c47212b64c5bc04cd6dca9df3c6da35bc4b6d8290a7ad4b29b",
+    "ancoras_v1_50_palavras.csv": "66658f4530b50811928f118d76a919c1e81e1204acb7a6fa7459f0f77b29796d",
+    "ancoras_v2_100_palavras.csv": "3a8b1fae634e98577b8b65845adecfd8517d9a81b21cdc38009d7b0b3e864048",
+    "ancoras_v3_150_palavras.csv": "8f2c8c3127e4f34183af5526e7f085ad7a1854fb0897736d26a301a1435066b0"
+  },
+  "excel_sha256": "83fb216959e83f17e9b6118253d6140c9e8b965c5a1be01448cf47b9d53215c6",
+  "notebook_sources_sha256": "6f18f72957b35403dda5549ec2c550ca67ffc0f679bff46087816822bef66ee8",
+  "helper_sha256": "654e32086a1af022a6f285f2568006a8022c18f1ed9e717c4c4cda8785a5c460",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "max_seq_length": 128,
+  "seed": 42,
+  "python": "3.13.16",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.8.0",
+    "sentence-transformers": "5.1.2",
+    "transformers": "4.57.1",
+    "tokenizers": "0.22.1",
+    "spacy": "3.8.16",
+    "pt_core_news_sm": "3.8.0",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.10.9",
+    "seaborn": "0.13.2"
+  }
+}

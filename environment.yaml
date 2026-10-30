@@ -1,0 +1,23 @@
+﻿name: dissertacao_fr
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # Direct dependencies of the notebooks. Conda resolves the transitive dependencies.
+  - python=3.13
+  - ipykernel
+  - jupyterlab
+  - nbclient=0.11
+  - nbformat=5.10
+  - numpy=2.3
+  - pandas=2.3
+  - matplotlib=3.10
+  - seaborn=0.13
+  - scipy=1.16
+  - scikit-learn=1.7
+  - sentence-transformers=5.1
+  - spacy=3.8
+  - spacy-model-pt_core_news_sm=3.8.0
+  - openpyxl=3.1
+  # Data collection (notebooks/00_data_collection.ipynb); already in the lockfile.
+  - requests=2.34
